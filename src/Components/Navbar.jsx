@@ -29,7 +29,7 @@ const Navbar = () => {
         <Link to="/favs">Favs</Link>
         <button onClick={toggleTheme}>
           {" "}
-          {state.theme === "dark" ? "Light Mode" : "Dark Mode"} Change theme
+          {state.theme === "dark" ? "Light Mode" : "Dark Mode"}
         </button>
       </div>
     </nav>
